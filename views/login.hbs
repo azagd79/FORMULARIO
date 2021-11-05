@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resources/css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="body-login">
+   
+    <div class="card-login card p-4">
+           <h1 class="text-center">sign in web</h1>
+        <form action="/logeado" method="post">
+             <label for="" class="form-label">email:</label>
+            <input type="email" class="form-control mb-3" name="email" placeholder="email">
+               <label for="" class="form-label">password</label>
+             <input type="password" class="form-control mb-3" name="password" placeholder="password">
+             <div class="ctr-buttons d-flex justify-content-evenly">
+                 <a href="/" class="close w-50 text-center py-2">close</a>
+                 <input type="submit" value="login" class="loggin w-50 py-2">
+             </div>
+               <p class="text-center mt-4 mb-0">new?</p>
+              <div class="question_register d-flex justify-content-center">
+                    <a href="/register" class="text-center">register now</a>
+              </div>
+        </form>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

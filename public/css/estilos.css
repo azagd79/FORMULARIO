@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body.body-login {
+  background: #f0f3f5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body.body-register {
+  background: #ff00cc;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav {
+  background: #000;
+  box-shadow: 0 0 7px #000;
+}
+.header-nav h1 {
+  color: #fff;
+}
+.header-nav .container-buttons a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-nav .container-buttons .login {
+  padding: 15px 12px;
+  border: 2px solid #000;
+  margin-right: 10px;
+  transition: ease 0.5s all;
+}
+.header-nav .container-buttons .login:hover {
+  background: #fff;
+  color: #000;
+}
+.header-nav .container-buttons .register {
+  background: #f50caf;
+  padding: 15px 12px;
+  transition: ease 0.5s all;
+}
+.header-nav .container-buttons .register:hover {
+  background: #c20b8b;
+}
+
+.container-users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-users .icon-user {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.container-users .icon-user img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-users h5 {
+  color: #fff;
+}
+
+.logout {
+  background: #f50caf;
+  padding: 15px 12px;
+  transition: ease 0.5s all;
+  margin-right: 20px;
+}
+.logout:hover {
+  background: #c20b8b;
+}
+
+.card-register {
+  width: 550px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 0 10px #000;
+}
+.card-register #formulario label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-register #formulario .enviar {
+  width: 100%;
+  margin-top: 10px;
+  background: #c20b8b;
+  color: #fff;
+  padding: 10px 0;
+  border: none;
+}
+
+.card-login {
+  width: 600px;
+  height: auto;
+}
+.card-login .close {
+  background: #000;
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.card-login .loggin {
+  background: #f50caf;
+  color: #fff;
+  border: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */

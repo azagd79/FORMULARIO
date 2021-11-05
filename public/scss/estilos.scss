@@ -1,0 +1,143 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+  &.body-login{
+     background: #f0f3f5;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }   
+  &.body-register{
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
+/////WEB SIN LOGGEAR
+.header-nav{
+    background: #000;
+    box-shadow: 0 0 7px #000;
+    h1{
+        color: #fff;
+    }
+    .container-buttons{
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .login{
+        
+          padding: 15px 12px;
+          border: 2px solid #000;
+          margin-right: 10px;
+          transition: ease .5s all;
+          &:hover{
+              background: #fff;
+              color: #000;
+          }
+        }
+
+        .register{
+            background: #f50caf;
+              padding: 15px 12px;
+              transition: ease .5s all;
+              &:hover{
+                background: #c20b8b;
+              }
+        }
+    }
+}
+
+///WEB YA REGISTRADO
+
+.container-users{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .icon-user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }  
+  }
+  h5{
+    color: #fff;
+  }
+  
+}
+.logout{
+  background: #f50caf;
+  padding: 15px 12px;
+  transition: ease .5s all;
+  margin-right: 20px;
+  &:hover{
+    background: #c20b8b;
+  }
+}
+
+
+
+
+////REGISTER CSS
+.card-register{
+    width: 550px;
+    height: auto;
+      background: #fff;
+      box-shadow: 0 0 10px #000;
+    #formulario{
+          label{
+              margin-top: 10px;
+              margin-bottom: 10px;
+          }
+          .enviar{
+              width: 100%;
+              margin-top: 10px;
+              background: #c20b8b;
+              color: #fff;
+              padding: 10px 0;
+              border: none;
+          }
+    }
+}
+
+
+////LOGIN CSS
+
+.card-login{
+  width: 600px;
+  height: auto;
+  .close{
+    background: #000;
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .loggin{
+    background:#f50caf;
+    color: #fff;
+    border: none;
+  }
+}
